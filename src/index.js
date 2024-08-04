@@ -1,3 +1,5 @@
+import './styles/styles-template.css';
+
 console.log("123");
 document.addEventListener("DOMContentLoaded", function() {
     const body = document.querySelector("body");
