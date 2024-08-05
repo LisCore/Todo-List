@@ -5,7 +5,7 @@ export function navbar() {
     theNavbar.classList.add("navbar");
     theNavbar.innerHTML = `
         <p>ADD ITEM</p>
-
+        <button class="addAnItem">Add</button>
     `;
 
     return theNavbar;
