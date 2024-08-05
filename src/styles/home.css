@@ -1,0 +1,11 @@
+/* h1 {
+    color: blue;
+} */
+
+.home-content {
+    grid-area: content;
+    color: red;
+    text-align: center;
+    height: 100%;
+    background-color: aqua;
+}
