@@ -4,8 +4,17 @@
 
 .home-content {
     grid-area: content;
-    color: red;
+    color: #333;
     text-align: center;
     height: 100%;
-    background-color: aqua;
+    background-color: antiquewhite;
+}
+
+.adding-items {
+    display: flex; 
+    width: 20rem;
+    border: 1px black solid;
+    flex-wrap: wrap;
+    text-align: start;
+    margin: 10px;
 }

@@ -5,7 +5,9 @@ export function homeOnLoad() {
     homeContent.classList.add("home-content");
     homeContent.innerHTML = `
         <h1>My to-do list</h1>
+        <div class="adding-items">
 
+        </div>
     `;
 
     return homeContent;

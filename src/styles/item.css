@@ -1,0 +1,8 @@
+.new-item {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%; 
+}
