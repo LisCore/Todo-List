@@ -2,6 +2,7 @@
 //Actually this is requesting to see if addItem will work
 
 import { addItem } from '../modules/addItem.js';
+// import { addBorder } from '../modules/home.js';
 
 export async function addContent(home, item) {
     try {
@@ -15,7 +16,7 @@ export async function hereAreTheItems(data) {
     try {
         const { name, note, priority } = data;
         const home = document.querySelector('.adding-items'); 
-
+        // addBorder();
         if (!name || !note || !priority) {
             throw new Error("Incomplete form data");
         }

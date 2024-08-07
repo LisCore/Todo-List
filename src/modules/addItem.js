@@ -13,7 +13,7 @@ export function addItem(item) {
             <p>Name: ${item.name}</p>
             <p>Note: ${item.note}</p>
             <p>Priority: ${item.priority}</p>
-        </div>
+        </div> 
     `;
     return itemContainer;
 }

@@ -12,9 +12,13 @@
 
 .adding-items {
     display: flex; 
-    width: 20rem;
-    border: 1px black solid;
     flex-wrap: wrap;
-    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+
     margin: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
 }

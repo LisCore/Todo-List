@@ -44,6 +44,8 @@
     background-color: #f0f0f0;
     color: black;
     text-align: start;
+    border: black 4px solid;
+    border-radius: 25px;
 }
 
 .a-todo {

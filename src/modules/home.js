@@ -12,3 +12,12 @@ export function homeOnLoad() {
 
     return homeContent;
 }
+
+// export function addBorder(home) {
+
+
+//     const tempHome = document.querySelector("home-content");
+//     home.classList.add("adding-items");
+//     tempHome.appendChild(home);
+//     return home;
+// }

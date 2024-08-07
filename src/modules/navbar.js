@@ -82,7 +82,7 @@ function getInfoFromUser() {
                 <label for="name">Name of task:</label>
                 <input type="text" name="name" id="name"><br>
                 <label for="note">Additional notes:</label>
-                <textarea name="note" id="note" style="width: 50%; height: 50%; max-width: 250px; max-height: 100px;"></textarea><br><br>
+                <textarea name="note" id="note" style="width: 50%; height: 50%; max-width: 250px; max-height: 100px; maxlength="40""></textarea><br><br>
                 <label for="priority">Priority Level:</label>
                 <select name="priority" id="priority">
                     <option value="none">None</option>
